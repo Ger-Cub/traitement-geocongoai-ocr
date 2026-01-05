@@ -104,5 +104,5 @@ app.post('/ocr', async (req: Request, res: Response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 OCR API running on port ${PORT}`);
+  console.log(`🚀 OCR API running on port http://localhost:${PORT}`);
 });
