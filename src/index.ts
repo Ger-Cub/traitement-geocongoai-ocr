@@ -51,8 +51,8 @@ app.post('/ocr', async (req: Request, res: Response) => {
     let documentPayload: any;
     if (type === 'pdf') {
       documentPayload = {
-        type: "pdf_url",
-        pdfUrl: url
+        type: "document_url",
+        documentUrl: url
       };
     } else {
       // Mistral uses image_url for images 
